@@ -1,7 +1,7 @@
 import sys
 
 word=sys.argv[1]
-key=3
+key=int(sys.argv[2])
 result = ''
 for char in word:
     if char.isalpha():
